@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 
-path = '/home/vladislav/ds-phase-0/learning/datasets/tips.csv'
+path = ''
 tips = pd.read_csv(path)
 tips = pd.DataFrame(tips)
 new = tips[['total_bill','tip']]
